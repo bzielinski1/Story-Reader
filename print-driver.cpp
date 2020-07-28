@@ -4,12 +4,12 @@
 
 using namespace std;
 
-const string FILENAME = "party.html";
+const string FILENAME = "escape.txt";
 
 int main()
 {
   Story* story = new Story(FILENAME);
-  story->print();
+  story->run(); 
 
   delete story;
   return 0;
